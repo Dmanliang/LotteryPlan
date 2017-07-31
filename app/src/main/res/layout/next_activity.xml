@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorlistback">
+
+    <include
+        android:id="@+id/next_toolbar"
+        layout="@layout/toolbar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent" />
+    <com.example.dell.lotteryplan.home.logic.listview.ListView
+        android:id="@+id/resultListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorline"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/next_toolbar"/>
+</RelativeLayout>

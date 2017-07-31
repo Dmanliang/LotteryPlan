@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    tools:context=".home.activity.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+        <FrameLayout
+            android:id="@+id/aboutus_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/toolbar_bg"
+                android:paddingTop="20dp">
+                <LinearLayout
+                    android:id="@+id/personal_about_back_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="14dp"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="20dp">
+                    <ImageView
+                        android:id="@+id/personal_about_back"
+                        android:layout_width="8dp"
+                        android:layout_height="16dp"
+                        android:background="@drawable/btn_back"
+                        android:layout_gravity="center_vertical"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:text="关于我们"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:paddingTop="20dp"/>
+            </RelativeLayout>
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutus"
+            android:textColor="@color/blacktext"
+            android:layout_below="@+id/aboutus_title"
+            android:paddingTop="22dp"
+            android:paddingStart="21dp"
+            android:paddingEnd="21dp"
+            android:lineSpacingExtra="11dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false"  >
+    <!-- 定义一个动画帧，Drawable为img0，持续时间20毫秒 -->
+    <item android:drawable="@drawable/type4_ball_6"  android:duration="150" />
+    <item android:drawable="@drawable/type4_ball_5"  android:duration="150" />
+    <item android:drawable="@drawable/type4_ball_3"  android:duration="150" />
+    <item android:drawable="@drawable/type4_ball_4"  android:duration="150" />
+    <item android:drawable="@drawable/type4_ball_1"  android:duration="150" />
+    <item android:drawable="@drawable/type4_ball_2"  android:duration="150" />
+</animation-list>

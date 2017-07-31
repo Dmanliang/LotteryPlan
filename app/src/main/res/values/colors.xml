@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhile">#ffffff</color>
+    <color name="colorblack">#000</color>
+    <color name="colorblack2">#333333</color>
+    <color name="colorgray">#666666</color>
+    <color name="colorlistback">#f2f2f2</color>
+    <color name="strokeline">#cccccc</color>
+    <color name="colorred">#ff0000</color>
+    <color name="colorline">#e5e5e5</color>
+    <color name="colorred1">#ff0000</color>
+    <color name="colorline2">#e6e6e6</color>
+    <color name="colorblueback">#54a7fc</color>
+    <color name="NFalpha">#0c000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="orangeTitle">#ff9d00</color>
+    <color name="blacktext">#666666</color>
+</resources>
